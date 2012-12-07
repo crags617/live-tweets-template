@@ -52,8 +52,9 @@
         var tweets = [
             'middle class',     // First term
             'poverty',          // Second term
-          	'22,-9,10000mi'		// most of earth, center in NW africa (lat,lon,radius)
+          	'39,-98,1500mi' 	// most of earth, center in NW africa (lat,lon,radius)
           //US: '39,-98,1500mi'     
+          //world: '22,-9,10000mi'
         ];
 
         // Make a new map in the #map element
@@ -65,7 +66,7 @@
                 lon: -9,       // To find coordinates and zoom levels, 
                 zoom: 2         // try: http://www.getlatlon.com
               //for US/North America: 40, -80 @ zoom: 4
-              //for world: 
+              //for world: 22, -9 @ zoom: 2
             },
             zoomRange: [1, 14], // Limit zooming on the map to these levels
             features: [         // Map features (see readme.md)
