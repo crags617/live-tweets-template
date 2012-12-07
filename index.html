@@ -50,11 +50,12 @@
     
         // Specify the tweets and location / radius to search
         var tweets = [
-            'christmas',     // First term
-            'hannukah',          // Second term
-          	'39,-98,1500mi'
+            'work',     // First term
+            'play',          // Second term
+          	'39,-98,2000mi'
           //US: '39,-98,1500mi'     
           //world: '22,-9,10000mi' --only considers "1000 distinct subregions"...?
+          //Europe: '48,11,1500mi'
         ];
 
         // Make a new map in the #map element
@@ -64,8 +65,8 @@
             center: {
                 lat: 40,        // Intial center point and zoom level.
                 lon: -80,       // To find coordinates and zoom levels, 
-                zoom: 4         // try: http://www.getlatlon.com
-              //for US/North America: 40, -80 @ zoom: 4
+                zoom: 3         // try: http://www.getlatlon.com
+              //US @ zoom: 4; world @ zoom: 2; Europe @ zoom: 5
               //for world: 22, -9 @ zoom: 2
             },
             zoomRange: [1, 14], // Limit zooming on the map to these levels
