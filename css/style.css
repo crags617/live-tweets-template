@@ -96,8 +96,8 @@ body > div {
 #header {
     position: absolute;
     top: 0px;
-    //right: 0px;
-    //width: 320px;
+    right: 0px;
+    width: 320px;
     height: 50px;	
     background: #444;
     color: white;
@@ -291,12 +291,20 @@ a.zoomer {
 
 /*Mode: Heroine */
 
+.heroine #header {
+  position: absolute;
+  top: 0px;
+  height: 50px;	
+  background: #444;
+  color: white;
+}
+
 .heroine .map {
   top:50px;
   bottom:auto;
   height:400px;
 }
-.hero #content {
+.heroine #content {
   top:450px;
   left:0;
   right:0;
@@ -306,29 +314,29 @@ a.zoomer {
   border-top:1px solid #ccc;
   width:auto;
 }
-.hero #content .limiter {
+.heroine #content .limiter {
   width:920px;
   margin:0px auto;
   position:relative;
 }
-.hero a.zoomer {
+.heroine a.zoomer {
   top:10px;
 }
-.hero .wax-tooltip {
+.heroine .wax-tooltip {
   top:10px;
   right:10px;
 }
-.hero .wax-legends {
+.heroine .wax-legends {
   right:10px;
 }
-.hero .share {
+.heroine .share {
   top:45px;
 }
 
-.hero .layers {
+.heroine .layers {
   height:36px;
 }
-.hero .layer {
+.heroine .layer {
   width:200px;
   float:left;
   margin-right:20px;
