@@ -97,6 +97,7 @@ body > div {
   left:0;
     }
 
+/* RIGHT mode:
 #header {
     position: absolute;
     top: 0px;
@@ -114,12 +115,34 @@ body > div {
 	bottom: 0px;
 	padding: 0 20px;
 	width: 279px;
-    background: rgb(255,255,255); /* old IE */
+    background: rgb(255,255,255);
     background: rgba(255,255,255,.9);
     border-left: 1px solid #ccc;
     overflow-x: auto;
     z-index: 2;
     }
+*/
+
+#header {
+  position: absolute;
+  top: 0px;
+  left:0;
+  right:0;
+  height: 50px;	
+  background: #444;
+  color: white;
+}
+
+#content {
+  top:450px;
+  left:0;
+  right:0;
+  bottom:auto;
+  border-left:none;
+  border-right:none;
+  border-top:1px solid #ccc;
+  width:auto;
+}
 
 #content img {
 	display: block;
