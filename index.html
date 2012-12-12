@@ -63,7 +63,8 @@
         // Make a new map in the #map element
         var main = Map('map', {
             // Specify the MapBox API url
-          	api: 'http://a.tiles.mapbox.com/v3/examples.map-dg7cqh4z.jsonp',
+          	api: 'http://a.tiles.mapbox.com/v3/crags617.craginfam.jsonp',
+          //api: 'http://a.tiles.mapbox.com/v3/examples.map-dg7cqh4z.jsonp',
             center: {
                 lat: 39,        // Intial center point and zoom level.
                 lon: -98,       // To find coordinates and zoom levels, 
@@ -76,6 +77,7 @@
                 'zoomwheel',
                 'zoombox',
                 'zoompan',
+              	'tooltips', //**
                 'share'
             ]
         }, tweetRace.start);  // Callback function to start when map is loaded
