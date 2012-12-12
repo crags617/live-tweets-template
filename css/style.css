@@ -96,8 +96,8 @@ body > div {
 #header {
     position: absolute;
     top: 0px;
-    right: 0px;
-    width: 320px;
+    //right: 0px;
+    //width: 320px;
     height: 50px;	
     background: #444;
     color: white;
@@ -288,6 +288,52 @@ a.zoomer {
 .mmg-first .overlay { background: #d97e51; }
 .mmg-second .arrow-down { background: rgba(93,191,225,1); }
 .mmg-second .overlay { background: #5dbfe1; }
+
+/*Mode: Heroine */
+
+.heroine .map {
+  top:50px;
+  bottom:auto;
+  height:400px;
+}
+.hero #content {
+  top:450px;
+  left:0;
+  right:0;
+  bottom:auto;
+  border-left:none;
+  border-right:none;
+  border-top:1px solid #ccc;
+  width:auto;
+}
+.hero #content .limiter {
+  width:920px;
+  margin:0px auto;
+  position:relative;
+}
+.hero a.zoomer {
+  top:10px;
+}
+.hero .wax-tooltip {
+  top:10px;
+  right:10px;
+}
+.hero .wax-legends {
+  right:10px;
+}
+.hero .share {
+  top:45px;
+}
+
+.hero .layers {
+  height:36px;
+}
+.hero .layer {
+  width:200px;
+  float:left;
+  margin-right:20px;
+  text-align:center;
+}
 
 /* embed */
 
